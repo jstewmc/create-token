@@ -1,10 +1,10 @@
 # create-token
-Create an opaque token.
+A create-token service.
 
 ```php
 use Jahuty\CreateToken\Create;
 
-(new Create())(8);   // returns something like "8ab5dfab"
+(new Create())(8);   // returns something like "12a8b53c"
 (new Create())(16);  // returns something like "8ab5dfaef3d2c999"
 ```
 
@@ -26,6 +26,10 @@ Keep in mind, length is important when creating an opaque token. To provide suff
 
 ## Version
 
+### 1.0.0, August 16, 2016
+
+* First major release
+
 ### 0.1.0, July 28, 2016
 
-* Initial release (moved from Jahuty)
+* Initial release
