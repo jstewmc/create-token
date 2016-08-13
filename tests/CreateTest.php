@@ -1,6 +1,6 @@
 <?php
 /**
- * The file for the create-token tests
+ * The file for the create-token service tests
  *
  * @author     Jack Clayton <clayjs0@gmail.com>
  * @copyright  2016 Jack Clayton
@@ -12,7 +12,7 @@ namespace Jstewmc\CreateToken;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**
- * Tests for the create-token class
+ * Tests for the create-token service
  */
 class CreateTest extends TestCase
 {
